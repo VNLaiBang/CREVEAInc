@@ -1,0 +1,200 @@
+.icon-aboutus {
+    width: 7%;
+    height: 3px;
+    background-color: rgb(44, 57, 228);
+    border-radius: 5px;
+    display: inline-block;
+    margin-bottom: 3px;
+}
+
+.img-metourteam {
+    width: 100%;
+}
+
+.bg-header {
+    background-color: white;
+}
+
+.nav-icon {
+    color: black;
+}
+
+@media only screen and (min-width: 375px) and (max-width: 600px) {
+    .img2 {
+        transform: translate(-50%);
+    }
+    .img-metourteam {
+        width: 100%;
+    }
+    .list-mobile {
+        list-style-type: none!important;
+        padding: 0;
+        margin: 0;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    /* Cho máy tính bảng: */
+    .nav-icon {
+        color: white;
+    }
+    .btn-send-ms {
+        transform: translate(-150%);
+    }
+    .bg-header {
+        background-color: blue;
+    }
+    .link-color {
+        color: white !important;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    /* Cho Laptop: */
+    .nav-icon {
+        color: white;
+    }
+    .bg-header {
+        background-color: blue;
+    }
+    .link-color {
+        color: white !important;
+    }
+    .img2 {
+        transform: translate(-125%);
+    }
+}
+
+.aboutus-sm {
+    font-size: 15px;
+}
+
+.linkposition {
+    position: relative;
+}
+
+.ourbusiness {
+    position: absolute;
+    top: 5px;
+    left: 30px;
+}
+
+.ourbusiness-freestyle {
+    padding: none!important;
+    margin: none!important;
+}
+
+.icon-ourbusiness {
+    width: 15px;
+    height: 3px;
+    background-color: rgb(255, 255, 255);
+    display: inline-block;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+
+.ourbusiness-content-h {
+    display: inline-block;
+    color: white;
+}
+
+.ourbusiness-content-h1 {
+    display: inline-block;
+    color: white;
+    padding-left: 20px;
+}
+
+.ourbusiness-content-h2 {
+    display: inline-block;
+    color: white;
+    padding-left: 20px;
+}
+
+.businessimg1 {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+}
+
+.ourbusiness-content {
+    position: absolute;
+    color: white;
+    font-size: 12px;
+    left: 20px;
+}
+
+.icon-news {
+    width: 20px;
+    height: 3px;
+    background-color: rgb(83, 178, 255);
+    border-radius: 5px;
+    display: inline-block;
+    margin-bottom: 3px;
+}
+
+.news-h1 {
+    display: inline-block;
+}
+
+.news-style {
+    border: 1px solid black;
+    text-decoration: none;
+    width: 100%;
+    padding: none!important;
+}
+
+.news-post {
+    background-color: blue;
+    color: white;
+}
+
+.p-news-post {
+    margin-bottom: 0 !important;
+}
+
+.news-post-type {
+    color: black;
+    font-size: 10px;
+}
+
+.news-content {
+    color: black;
+    font-size: 12px;
+}
+
+.icon-contact {
+    width: 20px;
+    height: 3px;
+    background-color: rgb(83, 178, 255);
+    border-radius: 5px;
+    display: inline-block;
+    margin-bottom: 3px;
+}
+
+.contact-style {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn-send-message {
+    float: right!important;
+    color: white;
+    background-color: orange;
+    border-radius: 2px;
+    border: none;
+}
+
+.link-footer {
+    color: white;
+}
+
+.fontsize-pfooter {
+    font-size: 9px;
+}
+
+.sub-footer {
+    background-color: white;
+    height: 1px;
+    width: 100%;
+}
